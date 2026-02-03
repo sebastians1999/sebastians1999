@@ -1,30 +1,62 @@
-<svg width="800" height="370" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="470" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="bgGradient" cx="85%" cy="15%" r="50%" fx="90%" fy="10%">
-      <stop offset="0%" style="stop-color:#6dd5ed;stop-opacity:0.6" />
-      <stop offset="40%" style="stop-color:#a8e6f5;stop-opacity:0.2" />
+    <radialGradient id="bgGradient" cx="85%" cy="15%" r="70%" fx="90%" fy="10%">
+      <stop offset="0%" style="stop-color:#6dd5ed;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#a8e6f5;stop-opacity:0.3" />
       <stop offset="100%" style="stop-color:#f5f5f0;stop-opacity:0" />
     </radialGradient>
   </defs>
-  <rect width="800" height="370" fill="#f5f5f0"/>
-  <rect width="800" height="370" fill="url(#bgGradient)"/>
+  <rect width="800" height="470" fill="#f5f5f0"/>
+  <rect width="800" height="470" fill="url(#bgGradient)"/>
+
   <text x="30" y="50" font-family="monospace" font-size="16" fill="#1a1a1a" opacity="0.6">~/sebastian &gt; cat about.txt</text>
   <text x="30" y="85" font-family="monospace" font-size="15" fill="#1a1a1a" font-weight="bold">Sebastian | ML Engineer × AI Researcher</text>
   <text x="30" y="110" font-family="monospace" font-size="14" fill="#1a1a1a">Master's in Data Science @ KTH Stockholm</text>
   <text x="30" y="135" font-family="monospace" font-size="14" fill="#1a1a1a" font-style="italic">"I build AI/ML systems that create impact."</text>
+
   <text x="30" y="185" font-family="monospace" font-size="16" fill="#1a1a1a" opacity="0.6">~/sebastian &gt; sqlite3 skills.db "SELECT * FROM tech_stack"</text>
-  <g font-family="monospace" font-size="13" fill="#1a1a1a">
-    <text x="30" y="215">+------------+--------------+------------+------------+</text>
-    <text x="30" y="235">| <tspan font-weight="bold">languages</tspan>  | <tspan font-weight="bold">frameworks</tspan>   | <tspan font-weight="bold">backend-db</tspan> | <tspan font-weight="bold">devops</tspan>     |</text>
-    <text x="30" y="255">+------------+--------------+------------+------------+</text>
-    <text x="30" y="275">| <tspan fill="#d14d41">python</tspan>     | <tspan fill="#d14d41">pytorch</tspan>      | <tspan fill="#d14d41">fastapi</tspan>    | <tspan fill="#d14d41">docker</tspan>     |</text>
-    <text x="30" y="295">| <tspan fill="#d14d41">java</tspan>       | <tspan fill="#d14d41">transformers</tspan> | <tspan fill="#d14d41">grpc</tspan>       | <tspan fill="#d14d41">terraform</tspan>  |</text>
-    <text x="30" y="315">| <tspan fill="#d14d41">sql</tspan>        | <tspan fill="#d14d41">scikit-learn</tspan> | <tspan fill="#d14d41">qdrant</tspan>     |            |</text>
-    <text x="30" y="335">|            | <tspan fill="#d14d41">langchain</tspan>    |            |            |</text>
-    <text x="30" y="355">+------------+--------------+------------+------------+</text>
+
+  <!-- Table using SVG lines for precise alignment -->
+  <g stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4,2">
+    <!-- Horizontal lines -->
+    <line x1="30" y1="200" x2="470" y2="200"/>
+    <line x1="30" y1="225" x2="470" y2="225"/>
+    <line x1="30" y1="330" x2="470" y2="330"/>
+    <!-- Vertical lines -->
+    <line x1="30" y1="200" x2="30" y2="330"/>
+    <line x1="130" y1="200" x2="130" y2="330"/>
+    <line x1="250" y1="200" x2="250" y2="330"/>
+    <line x1="360" y1="200" x2="360" y2="330"/>
+    <line x1="470" y1="200" x2="470" y2="330"/>
   </g>
-  <text x="450" y="50" font-family="monospace" font-size="16" fill="#1a1a1a" opacity="0.6">~/sebastian &gt; cat contact.txt</text>
-  <text x="450" y="85" font-family="monospace" font-size="13" fill="#1a1a1a">Location: Stockholm</text>
-  <text x="450" y="110" font-family="monospace" font-size="13" fill="#1a1a1a">Email: sebastian.schmuelling@gmail.com</text>
-  <text x="450" y="135" font-family="monospace" font-size="13" fill="#1a1a1a">LinkedIn: linkedin.com/in/sebastian-schmülling</text>
+
+  <!-- Table headers -->
+  <g font-family="monospace" font-size="13" fill="#1a1a1a" font-weight="bold">
+    <text x="40" y="217">languages</text>
+    <text x="140" y="217">frameworks</text>
+    <text x="260" y="217">backend-db</text>
+    <text x="370" y="217">devops</text>
+  </g>
+
+  <!-- Table data -->
+  <g font-family="monospace" font-size="13" fill="#d14d41">
+    <text x="40" y="247">python</text>
+    <text x="40" y="269">java</text>
+    <text x="40" y="291">sql</text>
+
+    <text x="140" y="247">pytorch</text>
+    <text x="140" y="269">transformers</text>
+    <text x="140" y="291">scikit-learn</text>
+    <text x="140" y="313">langchain</text>
+
+    <text x="260" y="247">fastapi</text>
+    <text x="260" y="269">grpc</text>
+    <text x="260" y="291">qdrant</text>
+
+    <text x="370" y="247">docker</text>
+    <text x="370" y="269">terraform</text>
+  </g>
+
+  <text x="30" y="380" font-family="monospace" font-size="16" fill="#1a1a1a" opacity="0.6">~/sebastian &gt; cat contact.txt</text>
+  <text x="30" y="410" font-family="monospace" font-size="13" fill="#1a1a1a">Stockholm | sebastian.schmuelling@gmail.com | linkedin.com/in/sebastian-schmülling</text>
 </svg>
