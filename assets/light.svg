@@ -12,11 +12,11 @@
   <text x="30" y="50" font-family="monospace" font-size="16" fill="#1a1a1a" opacity="0.6">~/sebastian &gt; cat about.txt</text>
   <text x="30" y="85" font-family="monospace" font-size="15" fill="#1a1a1a" font-weight="bold">Sebastian | ML Engineer × AI Researcher</text>
   <text x="30" y="110" font-family="monospace" font-size="14" fill="#1a1a1a">Master's in Data Science @ KTH Stockholm</text>
-  <text x="30" y="135" font-family="monospace" font-size="14" fill="#1a1a1a" font-style="italic">"I build AI/ML systems that create impact."</text>
+  <text x="30" y="135" font-family="monospace" font-size="14" fill="#1a1a1a" font-style="italic">"Love solving problems and learning new things day after day."</text>
 
   <text x="30" y="185" font-family="monospace" font-size="16" fill="#1a1a1a" opacity="0.6">~/sebastian &gt; sqlite3 skills.db "SELECT * FROM tech_stack"</text>
 
-  <!-- Table using SVG lines for precise alignment -->
+  <!-- Table using SVG lines for precise alignment -->o
   <g stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4,2">
     <!-- Horizontal lines -->
     <line x1="30" y1="200" x2="470" y2="200"/>

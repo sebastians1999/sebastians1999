@@ -6,8 +6,8 @@
       <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
     </radialGradient>
   </defs>
-  <rect width="800" height="470" fill="#0d1117"/>
-  <rect width="800" height="470" fill="url(#bgGradientDark)"/>
+  <rect width="800" height="470" rx="6" ry="6" fill="#0d1117"/>
+  <rect width="800" height="470" rx="6" ry="6" fill="url(#bgGradientDark)"/>
 
   <text x="30" y="50" font-family="monospace" font-size="16" fill="#8b949e" opacity="0.8">~/sebastian &gt; cat about.txt</text>
   <text x="30" y="85" font-family="monospace" font-size="15" fill="#c9d1d9" font-weight="bold">Sebastian | ML Engineer × AI Researcher</text>
