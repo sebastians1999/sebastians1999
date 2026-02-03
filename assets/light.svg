@@ -6,8 +6,8 @@
       <stop offset="100%" style="stop-color:#f5f5f0;stop-opacity:0" />
     </radialGradient>
   </defs>
-  <rect width="800" height="470" fill="#f5f5f0"/>
-  <rect width="800" height="470" fill="url(#bgGradient)"/>
+  <rect width="800" height="470" rx="6" ry="6" fill="#f5f5f0"/>
+  <rect width="800" height="470" rx="6" ry="6" fill="url(#bgGradient)"/>
 
   <text x="30" y="50" font-family="monospace" font-size="16" fill="#1a1a1a" opacity="0.6">~/sebastian &gt; cat about.txt</text>
   <text x="30" y="85" font-family="monospace" font-size="15" fill="#1a1a1a" font-weight="bold">Sebastian | ML Engineer × AI Researcher</text>
@@ -16,7 +16,7 @@
 
   <text x="30" y="185" font-family="monospace" font-size="16" fill="#1a1a1a" opacity="0.6">~/sebastian &gt; sqlite3 skills.db "SELECT * FROM tech_stack"</text>
 
-  <!-- Table using SVG lines for precise alignment -->o
+  <!-- Table using SVG lines for precise alignment -->
   <g stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4,2">
     <!-- Horizontal lines -->
     <line x1="30" y1="200" x2="470" y2="200"/>

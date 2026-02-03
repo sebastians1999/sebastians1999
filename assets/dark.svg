@@ -12,7 +12,7 @@
   <text x="30" y="50" font-family="monospace" font-size="16" fill="#8b949e" opacity="0.8">~/sebastian &gt; cat about.txt</text>
   <text x="30" y="85" font-family="monospace" font-size="15" fill="#c9d1d9" font-weight="bold">Sebastian | ML Engineer × AI Researcher</text>
   <text x="30" y="110" font-family="monospace" font-size="14" fill="#c9d1d9">Master's in Data Science @ KTH Stockholm</text>
-  <text x="30" y="135" font-family="monospace" font-size="14" fill="#c9d1d9" font-style="italic">"I build AI/ML systems that create impact."</text>
+  <text x="30" y="135" font-family="monospace" font-size="14" fill="#c9d1d9" font-style="italic">"Love solving problems and learning new things day after day."</text>
 
   <text x="30" y="185" font-family="monospace" font-size="16" fill="#8b949e" opacity="0.8">~/sebastian &gt; sqlite3 skills.db "SELECT * FROM tech_stack"</text>
 
