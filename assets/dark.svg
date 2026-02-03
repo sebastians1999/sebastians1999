@@ -1,0 +1,38 @@
+<svg width="800" height="650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGradientDark" cx="85%" cy="15%" r="50%" fx="90%" fy="10%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="650" fill="#0d1117"/>
+  <rect width="800" height="650" fill="url(#bgGradientDark)"/>
+  <text x="30" y="50" font-family="monospace" font-size="16" fill="#8b949e" opacity="0.8">~/sebastian &gt; cat about.txt</text>
+  <text x="30" y="85" font-family="monospace" font-size="15" fill="#c9d1d9" font-weight="bold">Sebastian | ML Engineer × AI Researcher</text>
+  <text x="30" y="110" font-family="monospace" font-size="14" fill="#c9d1d9">Master's in Data Science @ KTH Stockholm</text>
+  <text x="30" y="135" font-family="monospace" font-size="14" fill="#c9d1d9" font-style="italic">"I build AI/ML systems that create impact."</text>
+  <text x="30" y="185" font-family="monospace" font-size="16" fill="#8b949e" opacity="0.8">~/sebastian &gt; tree tech-stack/</text>
+  <g font-family="monospace" font-size="14" fill="#c9d1d9">
+    <text x="30" y="215">tech-stack/</text>
+    <text x="30" y="240">├── languages/</text>
+    <text x="30" y="265" fill="#ff7b72">│   ├── python</text>
+    <text x="30" y="290" fill="#ff7b72">│   ├── java</text>
+    <text x="30" y="315" fill="#ff7b72">│   └── sql</text>
+    <text x="30" y="340">├── ml-ai/</text>
+    <text x="30" y="365" fill="#ff7b72">│   ├── pytorch</text>
+    <text x="30" y="390" fill="#ff7b72">│   ├── transformers</text>
+    <text x="30" y="415" fill="#ff7b72">│   ├── scikit-learn</text>
+    <text x="30" y="440" fill="#ff7b72">│   └── langchain</text>
+    <text x="30" y="465">├── backend-db/</text>
+    <text x="30" y="490" fill="#ff7b72">│   ├── fastapi</text>
+    <text x="30" y="515" fill="#ff7b72">│   ├── grpc</text>
+    <text x="30" y="540" fill="#ff7b72">│   └── qdrant</text>
+    <text x="30" y="565">└── devops/</text>
+    <text x="30" y="590" fill="#ff7b72">    ├── docker</text>
+    <text x="30" y="615" fill="#ff7b72">    └── terraform</text>
+  </g>
+  <text x="400" y="50" font-family="monospace" font-size="16" fill="#8b949e" opacity="0.8">~/sebastian &gt; cat contact.txt</text>
+  <text x="400" y="85" font-family="monospace" font-size="13" fill="#c9d1d9">Location: Stockholm</text>
+  <text x="400" y="110" font-family="monospace" font-size="13" fill="#c9d1d9">Email: sebastian.schmuelling@gmail.com</text>
+  <text x="400" y="135" font-family="monospace" font-size="13" fill="#c9d1d9">LinkedIn: linkedin.com/in/sebastian-schmülling</text>
+</svg>
